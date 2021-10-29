@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Icones -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="home">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class='bx bxs-magic-wand'></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#magic">Magic</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Comprar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#c1">Passagens</a></li>
+                            <li><a class="dropdown-item" href="#c2">Porções</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#c3">Não recebi minha carta</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Quero saber sobre..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="magic">
+        <div class="container-fluid magic text-center margim">
+            <h1>Magic</h1>
+            <img src="./img/img4.jpg" class="rounded-circle" width="400" height="400">
+            <h3>Junte-se a nós e deixe a magia acontecer! </h3>
+        </div>
+    </section>
+
+    <section id="comprar">
+        <div class="container-flui text-center margim compras">
+            <h1>Comprar</h1>
+            <div class="container margim">
+                <div class="row">
+                    <div class="col-md-4" id="c1">
+                        <img src="./img/img2.jpg" width="140" height="140" class="rounded-circle">
+                        <h2>Passagens</h2>
+                        <p>Passagens para a estação 9<sup>3/4</sup>!</p>
+                        <p><a class="btn btn-secondary" href="#">Comprar &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4" id="c2">
+                        <img src="./img/img3.jpg" width="140" height="140" class="rounded-circle">
+                        <h2>Porções</h2>
+                        <p>Porções para todas as ocasiões!</p>
+                        <p><a class="btn btn-secondary" href="#">Comprar &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4" id="c3">
+                        <img src="./img/img1.jpg" width="140" height="140" class="rounded-circle">
+                        <h2>Carta</h2>
+                        <p>Adquira já a sua cartinha!</p>
+                        <p><a class="btn btn-secondary" href="#">Comprar &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bd-footer py-3 bg-light" id="cont">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Hogwarts">
+                <i class='bx bxs-magic-wand'></i>
+                <span class="fs-5">Hogwarts</span>
+              </a>
+              <ul class="list-unstyled small text-muted">
+                <li class="mb-2">Feito com amor e carinho por uma estudante da DIO - <a href="https://digitalinnovation.one/" target="_blank"> Digital Inovation One</a>.</li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#home">Home</a></li>
+      
+              </ul>
+            </div>
+      
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>GitHub</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/raianeeunice" target="_blank">raianeeunice</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+   
+
+    <!-- Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
